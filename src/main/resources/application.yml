@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/listening
+    username: app
+    password: app_password
+    ddl-auto: validate
+  jpa:
+    hibernate:
+        ddl-auto: validate
+  flyway:
+    enabled: true
+
