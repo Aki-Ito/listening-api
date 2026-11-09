@@ -31,6 +31,7 @@ dependencies {
 	implementation 'org.flywaydb:flyway-core'
 	implementation 'org.flywaydb:flyway-database-postgresql'
 	implementation 'org.springframework.boot:spring-boot-flyway'
+	implementation 'org.springframework.security:spring-security-crypto'
 	runtimeOnly 'org.postgresql:postgresql'
 }
 
