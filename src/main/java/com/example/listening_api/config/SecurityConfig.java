@@ -7,6 +7,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 @Configuration 
 public class SecurityConfig {
+    // このメソッドが返したオブジェクトを、Springが管理する部品（Bean）として登録します
     @Bean 
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
